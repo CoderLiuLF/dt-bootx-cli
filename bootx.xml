@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bootx project-name="dt-vanke-portal"
+       group-id="com.vanke.yicloud"
+       artifact-id="yicloud"
+       version="1.0.0-SNAPSHOT"
+       base-package="com.vanke.yicloud">
+    <datasource type="mysql"
+                host="127.0.0.1"
+                port="8889"
+                driver-class="org.gjt.mm.mysql.Driver"
+                username="root"
+                password="root"
+                database="db_201901"
+                name="master"
+                er-dir="/Users/gali/Desktop/test.png">
+        <table-group name="角色" comment="角色1" prefix="tb_" sheet-color="#DC143C">
+            <table table-name="tb_role_0"/>
+            <table table-name="tb_role_0"/>
+            <table table-name="tb_role_0"/>
+            <table table-name="tb_role_0"/>
+        </table-group>
+        <table-group name="用户" comment="用户1" prefix="tb_" >
+            <table table-name="tb_user"/>
+        </table-group>
+    </datasource>
+    <datasource type="mysql"
+                host="127.0.0.1"
+                port="8889"
+                driver-class="org.gjt.mm.mysql.Driver"
+                username="root"
+                password="root"
+                database="db_201901"
+                name="master"
+                >
+        <table-group name="角色2" comment="角色2" prefix="tb_" sheet-color="#DC143C">
+            <table table-name="tb_role_0"/>
+        </table-group>
+        <table-group name="用户2" comment="用户2" prefix="tb_" sheet-color="#DC143C">
+            <table table-name="tb_user"/>
+        </table-group>
+    </datasource>
+</bootx>
